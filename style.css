@@ -12,7 +12,7 @@ body {
   background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
   background-size: 500px;
   background-position: center center;
-  padding: 20px 100px;
+  padding: 20px 60px;
   transform: rotateZ(-5deg);
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
   position: absolute;
@@ -23,15 +23,19 @@ body {
   height: 200px;
   padding: 0;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 .paper.image {
   padding: 10px;
 }
 .paper.image p {
-  font-size: 30px;
+  font-size: 40px;
+  margin: 0px;
 }
 img {
-  max-height: 200px;
+  max-height: 210px;
   width: 100%;
   user-select: none;
 }
@@ -49,13 +53,13 @@ img {
   opacity: 0.6;
 }
 .paper.red {
-  filter: hue-rotate(90deg);
+  filter: rotate(90deg);
 }
 .paper:nth-of-type(3n) {
   background-position: left top;
 }
 .paper:nth-of-type(3n) {
-  filter: hue-rotate(200deg);
+  filter: rotate(200deg);
 }
 p {
   font-family: 'Zeyada';
@@ -70,6 +74,9 @@ p {
   margin: 0px;
 }
 .p2{
+  margin: 0px;
+}
+.p3{
   margin: 0px;
 }
 
@@ -95,4 +102,15 @@ p {
 
 .play-button:hover {
     background-color: #45a049; /* Darker green */
+}
+
+#sss{
+  height: 210px;
+  width: 180px;
+  padding-left: 20px;
+}
+
+.fourthimg{
+  width: 185px;
+  padding-left: 40px;
 }
